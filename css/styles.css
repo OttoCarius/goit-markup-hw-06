@@ -725,9 +725,11 @@ border-color:var(--colorSecondary);}
     padding-left: 42px;
     outline: none;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    cursor: pointer;
+   
     
 }
+
+/* cursor: pointer; */
 
 .form-input:focus{border: 1px solid var(--colorSecondary);
     
@@ -778,8 +780,9 @@ border-color:var(--colorSecondary);}
 
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     margin-bottom: 20px;
-    cursor: pointer;
+    
 }
+/* cursor: pointer; */
 
 .modal-comment::placeholder{
     font-family: 'Roboto';
